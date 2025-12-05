@@ -20,6 +20,11 @@ app.get("/", (req, res) => {
     res.render("index.ejs");
 });
 
+app.get("/user", (req, res) => {
+    res.render("new.ejs");
+
+})
+
 
 app.listen(3030, () => {
      console.log("port is start..");
