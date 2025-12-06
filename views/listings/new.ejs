@@ -1,0 +1,30 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New USer</title>
+</head>
+<body> -->
+
+    <% layout("/layouts/boilerplate") -%>
+    <h1 class="text-center mt-5">Debite Your Notes</h1>
+    <div class="row mt-5">
+    <form method="POST" action="/user/posts" class="needs-validation" novalidate>
+        <div class="col-6 offset-3 mb-3">
+        <label for="username" class="form-label">username</label>
+        <input type="text" name="username" class="form-control" required>
+        </div>
+        <br>
+        <div class="col-6 mb-3 offset-3">
+        <label for="email" class="form-label">email</label>
+        <input type="email" name="email" class="form-control" required>
+        <br>
+        <br>
+        <button class="btn btn-dark ">submit</button>
+    </div>
+    </form>
+    </div>
+<!-- </body>
+</html> -->
